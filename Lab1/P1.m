@@ -107,4 +107,3 @@ plot(absorbtionled(:,1),absorbtionled(:,2))
 hold on
 plot(emissionled(:,1)/100,emissionled(:,2)/max(emissionled(:,2)))
 saveas(gcf,'lab1_1','jpeg')
-
